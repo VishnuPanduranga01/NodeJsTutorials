@@ -9,7 +9,7 @@ eventEmiite.on('listen',()=>{
 eventEmiite.on('logData',logEvent);
 
 //emmiting event
-eventEmiite.emit('listen','Message by me');
+eventEmiite.emit('listen');
 eventEmiite.emit('logData','Message by me');
 
 
