@@ -67,3 +67,4 @@ process.on("uncaughtException", err => {
     console.log("There is an error while reading file", err);
     process.exit(1);
 })
+
