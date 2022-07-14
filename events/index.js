@@ -2,10 +2,14 @@ const events = require('events');
 const eventEmiite = new events.EventEmitter();
 const {logEvent} = require("./events");
 
-//Initiating Event 
+//Initiating Event  listener
+eventEmiite.on('listen',()=>{
+    console.log("listening")
+});
 eventEmiite.on('logData',logEvent);
 
 //emmiting event
+eventEmiite.emit('listen','Message by me');
 eventEmiite.emit('logData','Message by me');
 
 

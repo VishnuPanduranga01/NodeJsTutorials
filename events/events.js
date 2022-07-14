@@ -10,6 +10,10 @@ const logEvent = async (message) =>{
     const mesageInfo = `${DateTime}\t\t ${id} \t ${message}\n`
     console.log(mesageInfo)
     try{
+        //checking if directory exists else  create new
+        if(!fs.existsSync(path.join(__dirname,"logFiles"))){
+            fs.mkdirSync(path.join(__dirname,"logFiles"));
+        }
         await fsPromises.appendFile(path.join(__dirname,"logFiles","log.txt"),mesageInfo);
     }
     catch(err){
