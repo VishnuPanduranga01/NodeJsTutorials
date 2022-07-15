@@ -1,0 +1,8 @@
+15-Jul-2022	 21-34-42 	 bdc8508d-5f57-4f1c-ae96-74a0f4afdf18  	 undefined/	GET 
+15-Jul-2022	 21-34-54 	 6b54ca36-513f-468c-9701-ee83e43ea631  	 undefined/	GET 
+15-Jul-2022	 21-35-43 	 4826e167-d02f-46b8-8c64-ef2fe1f566cf  	 undefined/	GET 
+15-Jul-2022	 21-35-43 	 3b79af2f-6494-404e-9b65-2d33ce378c8d  	 undefined/css/style.css	GET 
+15-Jul-2022	 21-37-03 	 1f501978-d322-4d57-87f5-3c9cca694ad4  	 undefined/index.html	GET 
+15-Jul-2022	 21-37-58 	 f2aea87a-de66-40f8-b694-7d1ad8ed6b4d  	 undefined/index.html	GET 
+15-Jul-2022	 21-37-58 	 56a62a80-dca3-4e61-8967-a8bb3737ba7b  	 undefined/css/style.css	GET 
+15-Jul-2022	 21-38-54 	 e01c07a3-32ea-4b2c-b935-cb1f80a03ba4  	 https://www.google.com/	GET 

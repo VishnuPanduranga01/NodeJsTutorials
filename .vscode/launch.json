@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "pwa-node",
             "request": "launch",
@@ -8,7 +9,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\5_webServer\\server.js"
+            "program": "${workspaceFolder}\\7_middleWare\\server.js"
         },
         {
             "type": "node-terminal",
