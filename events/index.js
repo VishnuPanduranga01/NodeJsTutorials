@@ -10,6 +10,11 @@ eventEmiite.on('logData',logEvent);
 
 //emmiting event
 eventEmiite.emit('listen');
-eventEmiite.emit('logData','Message by me');
+
+//with time out
+setTimeout(()=>{
+    eventEmiite.emit('logData','Message by me');
+},2000);
+
 
 
