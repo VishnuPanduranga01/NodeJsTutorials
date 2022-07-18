@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\9_MVC_Rest_API\\server.js"
+            "program": "${workspaceFolder}\\10_Authorization\\server.js"
         },
         {
             "type": "node-terminal",
