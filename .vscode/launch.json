@@ -3,6 +3,7 @@
     "configurations": [
 
 
+
         {
             "type": "pwa-node",
             "request": "launch",
@@ -10,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\8_Routing\\server.js"
+            "program": "${workspaceFolder}\\9_MVC_Rest_API\\server.js"
         },
         {
             "type": "node-terminal",
