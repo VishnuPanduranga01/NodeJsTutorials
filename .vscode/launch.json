@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\10_Authorization\\server.js"
+            "program": "${workspaceFolder}\\11_JWT_Auth\\server.js"
         },
         {
             "type": "node-terminal",
