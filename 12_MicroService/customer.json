@@ -1,0 +1,25 @@
+[
+
+
+    {
+        "id":"0001",
+        "name":"Name_Customer1",
+        "addres":"Bangalore"
+    },
+    {
+        "id":"0003",
+        "name":"David",
+        "addres":"USA"
+    },
+    {
+        "id":"0002",
+        "name":"Dont knw",
+        "addres":"France"
+    },
+    {
+        "id":"0008",
+        "name":"XXXXXXXXXXXXXXXXXXXXXXXX",
+        "addres":"IND"
+    }
+
+]
