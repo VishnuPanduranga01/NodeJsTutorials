@@ -1,5 +1,5 @@
 {
-  "name": "capm_Bookshop",
+  "name": "capm3",
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
@@ -7,13 +7,15 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^5",
-    "express": "^4"
+    "express": "^4",
+    "hdb": "^0.19.0"
   },
   "devDependencies": {
-    "sqlite3": "^5.0.10"
+    "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run",
+    "build": "cds build/all --clean;cp gen/srv/srv/csn.json srv/gen/;cp -r gen/db/src/gen db/src"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -43,10 +45,7 @@
   "cds": {
     "requires": {
       "db": {
-        "kind": "sqlite",
-        "credentials": {
-          "database": "db/my-bookshop.db"
-        }
+        "kind": "hana-cloud"
       }
     }
   }
