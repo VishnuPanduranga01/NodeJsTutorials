@@ -1,5 +1,5 @@
 {
-  "name": "capm3",
+  "name": "capm5_Annotations",
   "version": "1.0.0",
   "description": "A simple CAP project.",
   "repository": "<Add your repository here>",
@@ -7,16 +7,13 @@
   "private": true,
   "dependencies": {
     "@sap/cds": "^5",
-    "date-fns": "^2.29.1",
-    "express": "^4",
-    "hdb": "^0.19.0"
+    "express": "^4"
   },
   "devDependencies": {
     "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds run",
-    "build": "cds build/all --clean;cp gen/srv/srv/csn.json srv/gen/;cp -r gen/db/src/gen db/src"
+    "start": "cds run"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -41,13 +38,6 @@
     "rules": {
       "no-console": "off",
       "require-atomic-updates": "off"
-    }
-  },
-  "cds": {
-    "requires": {
-      "db": {
-        "kind": "hana-cloud"
-      }
     }
   }
 }
